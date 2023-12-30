@@ -1,0 +1,83 @@
+.Home-fonts {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.page-header {
+  background-image: url('/image/curved1.jpg');
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50%;
+}
+.bg-gradient-primary {
+  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+}
+.mask {
+  position: absolute;
+  background-size: cover;
+  background-position: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.waves {
+  position: relative;
+  width: 100%;
+  height: 16vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px;
+}
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-0.25rem);
+}
+.card-all {
+  box-shadow: inset 0 0 1px 1px hsla(0, 0%, 100%, 0.9),
+    0 20px 27px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: hsla(0, 0%, 100%, 0.8) !important;
+  padding: 25px;
+  z-index: 999999999999999 !important;
+}
+.rotate-74 {
+  transform: rotate(74deg) !important;
+}
+
+.welcome-area {
+  box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, 0.05);
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+.cta-box {
+  background-image: url(image/bg-pattern.png);
+  background-size: cover;
+}
+
+#autoType {
+  color: #fb9753;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #fb9753 !important;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
